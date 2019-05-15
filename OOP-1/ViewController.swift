@@ -10,11 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var timeLbl: UILabel!
+    var watch: Watch!
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        watch = Watch(brand: "Rolex", time: "12:23", sec: 10)
+        print("Brand: \(watch.brand), Time: \(watch.time), Seconds: \(watch.stopWatchSecond)")
+        watch.showTime()
+        watch.printPrice()
+        updLbl()
+       
+    
     }
-
-
+   
+    @IBAction func addSecondBtn(_ sender: UIButton) {
+        watch.addSeconds(seconds: 10)
+        updLbl()
+    }
+    func updLbl(){
+        timeLbl.text = String(watch.stopWatchSecond)
+    }
 }
 

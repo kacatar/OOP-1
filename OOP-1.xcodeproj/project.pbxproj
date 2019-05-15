@@ -12,6 +12,9 @@
 		2D05B053228BE75300E19D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D05B051228BE75300E19D0C /* Main.storyboard */; };
 		2D05B055228BE75300E19D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D05B054228BE75300E19D0C /* Assets.xcassets */; };
 		2D05B058228BE75300E19D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D05B056228BE75300E19D0C /* LaunchScreen.storyboard */; };
+		2D05B060228BE7AF00E19D0C /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05B05F228BE7AF00E19D0C /* Watch.swift */; };
+		2D05B062228C033E00E19D0C /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05B061228C033E00E19D0C /* Items.swift */; };
+		2D05B064228C053300E19D0C /* UIRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05B063228C053300E19D0C /* UIRoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2D05B054228BE75300E19D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D05B057228BE75300E19D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D05B059228BE75300E19D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D05B05F228BE7AF00E19D0C /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		2D05B061228C033E00E19D0C /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		2D05B063228C053300E19D0C /* UIRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		2D05B04C228BE75300E19D0C /* OOP-1 */ = {
 			isa = PBXGroup;
 			children = (
-				2D05B04D228BE75300E19D0C /* AppDelegate.swift */,
+				2D05B05F228BE7AF00E19D0C /* Watch.swift */,
 				2D05B04F228BE75300E19D0C /* ViewController.swift */,
+				2D05B04D228BE75300E19D0C /* AppDelegate.swift */,
 				2D05B051228BE75300E19D0C /* Main.storyboard */,
+				2D05B061228C033E00E19D0C /* Items.swift */,
 				2D05B054228BE75300E19D0C /* Assets.xcassets */,
 				2D05B056228BE75300E19D0C /* LaunchScreen.storyboard */,
 				2D05B059228BE75300E19D0C /* Info.plist */,
+				2D05B063228C053300E19D0C /* UIRoundedButton.swift */,
 			);
 			path = "OOP-1";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D05B062228C033E00E19D0C /* Items.swift in Sources */,
+				2D05B064228C053300E19D0C /* UIRoundedButton.swift in Sources */,
 				2D05B050228BE75300E19D0C /* ViewController.swift in Sources */,
+				2D05B060228BE7AF00E19D0C /* Watch.swift in Sources */,
 				2D05B04E228BE75300E19D0C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
